@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'andika_basicregular';
+    src: url('fonts/m.woff2') format('woff2');
+}
+
+header{
+    position: fixed;
+    z-index: 900;
+}
+.home-learn-it {
+    min-height: 100vh;
+}
+
+@media only screen and (min-width: 600px) {
+    .home-learn-it .hli-content {
+        margin: 200px auto 0;
+    }
+}
