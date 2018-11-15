@@ -8,8 +8,40 @@ header{
     min-height: 100vh;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .home-learn-it .hli-content {
         margin: 200px auto 0;
     }
 }
+
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 700px) {
+    .home-learn-it .hli-content h1{
+        font-size: 50px;
+    }
+    .home-learn-it .hli-content h2{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .home-learn-it .hli-content h1{
+        font-size: 35px;
+    }
+    .home-learn-it .hli-content h2{
+        font-size: 20px;
+    }
+}
+
+
+
